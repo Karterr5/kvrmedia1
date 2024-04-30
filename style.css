@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fredericka the Great", serif;
+}
+
+.section1{
+    height: 45em;
+    width: 100%;
+    background-color: aqua;
+    /* background-color: aquamarine; */
+    background-image: url(kvr\ back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    height: 14%;
+    width: 100%;
+    /* background-color: wheat; */
+    position: fixed;
+    top: 0;
+    background-color: #a0b0c4f3;
+}
+
+nav div{
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    /* background-color: bisque; */
+    display: flex;
+}
+
+.menu-list{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list .menu{
+    height: 100%;
+    width: 95%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .sub-menu1{
+    height: 100%;
+    width: 10%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+
+.sub-menu1 a{
+    color: #660392;
+}
+
+.sub-menu1 a:hover{
+    color: white;
+}
+
+.menu .sub-menu2{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.menu .sub-menu3{
+    height: 100%;
+    width: 35%;
+    /* background-color: green; */
+}
+
+.sub-menu3 ul{
+    height: 100%;
+    width: 200%;
+    /* background-color: #960000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.sub-menu3 ul a{
+    text-decoration: none;
+    color: white;
+}
+.sub-menu3 ul a:hover{
+    text-decoration: underline;
+}
+
+#section1{
+    height: 30%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    margin-top: 6.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 h3{
+    margin-top: 70%;
+    color: white;
+}
+
+.section2{
+    height: 56em;
+    width: 100%;
+    /* background-color: bisque; */
+    margin-top: 2%;
+}
+
+.sub-section2a{
+    height: 20%;
+    width: 100%;
+    /* background-color: azure; */
+    text-align: center;
+}
+
+#sub-section2ai{
+    width: 100%;
+    height: 35%;
+    margin-top: 1%;
+}
+
+#sub-section2ai1{
+    width: 100%;
+    height: 35%;
+}
+
+.sub-section2b{
+    height: 85%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+#img1{
+    height: 45%;
+    width: 16%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#img2{
+    height: 45%;
+    width: 19%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#img3{
+    height: 45%;
+    width: 18%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#img4{
+    height: 45%;
+    width: 16%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+
+}
+
+#img5{
+    height: 45%;
+    width: 16%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+#img6{
+    height: 45%;
+    width: 16%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+.section5{
+    height: 10em;
+    width: 100%;
+    background-color: #660392;
+    text-align: center;
+}
+
+.section5a{
+    color: azure;
+    padding-top: 2%;
+}
+
+.section5a h2{
+    font-weight: lighter;
+}
+
+.section5b{
+    padding-top: 2%;
+    letter-spacing: 5px;
+}
+
+.section5b a{
+    text-decoration: none;
+    color: azure;
+}
+
+.section5b a:hover{
+    text-decoration: none;
+    color: rgb(19, 9, 149);
+}
+
+.section5c{
+    color: azure;
+    padding-top: 2%;
+}
+
+.section5c p{
+    font-weight: lighter;
+    font-size: small;
+}
